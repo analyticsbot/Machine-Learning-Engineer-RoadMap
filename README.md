@@ -1,23 +1,27 @@
-### First-Time Machine Learning Engineer
+### Machine Learning Engineer Roadmap
 
-Welcome to the First-Time Machine Learning Engineer repository! This comprehensive guide bridges the gap between machine learning theory and production-ready systems. Whether you're a data scientist transitioning to engineering or a developer entering the ML space, this roadmap will equip you with the tools, frameworks, and best practices to deploy robust ML solutions.
+This repository offers a hands-on, structured roadmap for machine learning engineers, data scientists, and software engineers to bridge the gap between machine learning theory and production-ready systems. By following this roadmap, you'll gain the skills and knowledge needed to deploy, monitor, and scale machine learning models in production, regardless of your background or experience level.
 
-#### 📌 Objective
+Over the last 5 years, machine learning engineering has evolved significantly. It's no longer just about training models, but also about deploying, monitoring, and scaling them in production. This shift has created a huge gap between machine learning theory and production-ready systems. 
 
-To provide a structured, hands-on roadmap for deploying, monitoring, and scaling machine learning models in production. This repository emphasizes:
+#### What You’ll Learn
 
-- **End-to-End Pipelines:** From data ingestion to model serving.
-- **Industry Tools:** Docker, Kubernetes, MLFlow, TensorFlow Extended (TFX), etc.
-- **Cloud-Native ML:** Leveraging AWS, GCP, and Azure services.
-- **MLOps Practices:** CI/CD, monitoring, and reproducibility.
+#### 1. Foundations of ML Engineering Role: 
+This section lays the groundwork for understanding the critical components for ML engineers. It covers:
 
-#### 🛠️ What You’ll Learn
+- **ML in Research vs Production:** Research often focuses on pushing the boundaries of accuracy—improving benchmarks by a few percentage points and publishing novel algorithms—while production is about reliability, scalability, and performance. In research, a paper might introduce a new algorithm that increases accuracy on a benchmark dataset by 2%, but in production, the goal is to deploy a model that not only performs well but also meets real-world constraints like low latency, high throughput, and optimized online metrics (e.g. conversion rate, click-through rate). For example, a research lab might work to achieve state-of-the-art results on datasets like ImageNet, whereas a company like Meta or TikTok would prioritize productionizing a model that delivers consistent performance, is easy to maintain, and adapts to changing data patterns—all while keeping the end-user experience smooth.
 
-#### 1. Foundations of ML Engineering: 
-This section lays the groundwork for understanding the transition from research to production, which is critical for ML engineers. It covers:
+  Here are some resources that expand on this:
+  - [Machine Learning Researcher vs Engineers – What's the Difference?](https://valohai.com/blog/machine-learning-researcher-vs-engineers-difference/) - This piece explores the technological gap between ML research and its application in production systems, emphasizing differences in objectives and methodologies.
 
-- **ML in Research vs Production:** Research focuses on accuracy and innovation, often at the expense of efficiency, while production prioritizes latency, scalability, and reliability. For example, a research model might take hours to predict, but in production, predictions need to be real-time, such as in fraud detection systems. You should also know how to compare one algorithm versus another, especially when it comes to latency and accuracy tradeoffs.
-  - Key things: Latency, scalability, and reliability requirements.
+  - [Academic Machine Learning Vs. Production Oriented Machine Learning](https://www.bairesdev.com/blog/academic-vs-production-oriented-ml/) - This article contrasts the goals and approaches of ML in academic research with those in business production environments, discussing factors like accuracy, speed, and practicality.
+  - [What's the Difference between ML in Research vs in Production?](https://angelina-yang.medium.com/whats-the-difference-between-ml-in-research-vs-in-production-4cc7ab5678ec/) - This Medium article provides example questions and insights into the distinctions between ML research and production settings, particularly in interview contexts.
+  - [Working in Research vs. Working in Production](https://huyenchip.com/ml-interviews-book/contents/1.1.1-working-in-research-vs.-workingin-production.html) - This section from "Machine Learning Interviews Book" examines the fundamental differences between ML in academic settings and in production, focusing on aspects like training versus serving and the pursuit of state-of-the-art results.
+  - [What's the difference between machine learning researchers vs engineers?](https://www.qwak.com/post/whats-the-difference-between-machine-learning-researchers-vs-engineers?utm_source=chatgpt.com) - This article discusses the varying roles and focuses of ML researchers compared to engineers, particularly in terms of repeatability, record-keeping, and collaboration.
+
+**Which Way You Want to Go Depends on What You Really Love to Do**
+
+When choosing your career path in machine learning, let your passion be your guide. If you’re excited by the idea of breaking new ground in research—tweaking algorithms to squeeze out that extra percentage of accuracy and publishing your findings—then research might be your calling. On the other hand, if you thrive on solving real-world problems and enjoy the challenge of deploying scalable, robust models that directly impact user experiences, then production engineering is likely for you.
     
 - **Data Engineering:** This includes understanding data lakes (raw data storage, e.g., for exploratory analysis) vs data warehouses (structured data for reporting, e.g., for business intelligence). It also covers ETL/ELT pipelines (Extract, Transform, Load vs Extract, Load, Transform) and tools like Apache Spark for big data processing. For instance, ETL might be used to clean and transform customer data before loading it into a warehouse for ML training.
   Key things: Data lakes vs warehouses, ETL/ELT pipelines, and tools like Apache Spark.
