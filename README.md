@@ -13,7 +13,8 @@ To provide a structured, hands-on roadmap for deploying, monitoring, and scaling
 
 #### 🛠️ What You’ll Learn
 
-#### 1. Foundations of ML Engineering: This section lays the groundwork for understanding the transition from research to production, which is critical for ML engineers. It covers:
+#### 1. Foundations of ML Engineering: 
+This section lays the groundwork for understanding the transition from research to production, which is critical for ML engineers. It covers:
 
 - **ML in Research vs Production:** Research focuses on accuracy and innovation, often at the expense of efficiency, while production prioritizes latency, scalability, and reliability. For example, a research model might take hours to predict, but in production, predictions need to be real-time, such as in fraud detection systems. You should also know how to compare one algorithm versus another, especially when it comes to latency and accuracy tradeoffs.
   - Key things: Latency, scalability, and reliability requirements.
@@ -30,7 +31,8 @@ To provide a structured, hands-on roadmap for deploying, monitoring, and scaling
 
 Additionally, a notable inclusion is Soft Skills for ML Engineers, such as communication, collaboration, and project management, which are vital for working in cross-functional teams and managing stakeholder expectations.
 
-#### 2. Model Building & Experimentation: This section focuses on the technical skills for creating and evaluating ML models, covering:
+#### 2. Model Building & Experimentation: 
+This section focuses on the technical skills for creating and evaluating ML models, covering:
 
 - **Algorithms:** Includes regression (predicting continuous values, e.g., house prices), classification (predicting categories, e.g., spam vs not spam), clustering (grouping similar data, e.g., customer segmentation), and deep learning (neural networks for complex patterns, e.g., CNNs for image recognition, RNNs for time series, Transformers for natural language processing).
 - **Frameworks:**
@@ -42,7 +44,8 @@ Additionally, a notable inclusion is Soft Skills for ML Engineers, such as commu
 
 An additional note here is on Explainable AI, discussing techniques like SHAP (SHapley Additive exPlanations) or LIME (Local Interpretable Model-agnostic Explanations) to make models interpretable, which is increasingly important for regulatory compliance and stakeholder trust.
 
-#### 3. ML Pipelines & Automation: This section addresses automating and managing the ML workflow, ensuring efficiency and consistency:
+#### 3. ML Pipelines & Automation: 
+This section addresses automating and managing the ML workflow, ensuring efficiency and consistency:
 
 - **Workflow Orchestration:** Tools like Apache Airflow (for scheduling and monitoring workflows), Kubeflow (for ML-specific orchestration, e.g., on Kubernetes), and Prefect (for modern, Python-native workflows) help manage the flow of data and tasks. For example, Airflow can schedule daily model retraining jobs.
 
@@ -55,7 +58,8 @@ An additional note here is on Explainable AI, discussing techniques like SHAP (S
 An additional topic here is Data Lineage, tracking the origin and transformations of data through the pipeline, which is essential for auditing and compliance, especially in regulated industries like finance.
 
 
-#### 4. Model Deployment: This section focuses on making models accessible and scalable in production:
+#### 4. Model Deployment: 
+This section focuses on making models accessible and scalable in production:
 
 - **API Development:** Develop REST APIs using Flask/FastAPI (lightweight, Python-based, e.g., for serving predictions) or gRPC (high-throughput, language-agnostic, e.g., for microservices). For example, a Flask API might serve predictions for a customer churn model.
 
@@ -72,7 +76,8 @@ An additional topic here is Data Lineage, tracking the origin and transformation
 
 Additional strategies include Blue-Green Deployments (switching between two environments for zero-downtime updates) and Canary Releases (gradually rolling out new models to a subset of users), enhancing deployment safety and reliability.
 
-#### 5. Monitoring & Maintenance: This section ensures models perform well post-deployment:
+#### 5. Monitoring & Maintenance: 
+This section ensures models perform well post-deployment:
 
 - **Model Drift:** Detect data drift (change in input distribution, e.g., seasonal shifts in user behavior) and concept drift (change in input-output relationship, e.g., market trends) using tools like Evidently AI (open-source, for drift analysis) or Amazon SageMaker Model Monitor (integrated with AWS, for automated monitoring). For example, a retail model might detect drift during holiday seasons.
 
@@ -84,7 +89,8 @@ Additional strategies include Blue-Green Deployments (switching between two envi
 
 An additional focus is on Model Performance Degradation, where models might underperform due to data shifts or concept changes, requiring retraining or updates to maintain accuracy.
 
-#### 6. MLOps & CI/CD: This section integrates ML with DevOps practices for continuous delivery:
+#### 6. MLOps & CI/CD: 
+This section integrates ML with DevOps practices for continuous delivery:
 
 - **Version Control:** Use Git for code, DVC for data and models (tracking versions, e.g., for reproducibility), and Neptune for experiment tracking (logging hyperparameters, metrics, e.g., for comparison). For example, Git can manage code changes, while DVC handles large datasets.
 
@@ -96,7 +102,8 @@ An additional focus is on Model Performance Degradation, where models might unde
 
 An additional practice is Continuous Validation, ensuring models are validated continuously in production to detect performance drops or drift, enhancing reliability.
 
-#### 7. Advanced Topics:This section covers cutting-edge techniques for advanced ML engineering:
+#### 7. Advanced Topics:
+This section covers cutting-edge techniques for advanced ML engineering:
 
 - **Distributed Training:** Use Horovod, MPIRUN (for distributed deep learning, e.g., on multiple GPUs), PyTorch Distributed (for PyTorch models, e.g., across nodes), or SageMaker/ Vertex AI Distributed Training (AWS-managed, e.g., for large datasets) to speed up training. For example, distributed training can reduce training time for a large language model from days to hours.
 
@@ -108,7 +115,8 @@ An additional practice is Continuous Validation, ensuring models are validated c
 
 Additional topics include Federated Learning (training models on decentralized data, e.g., for privacy-preserving healthcare apps) and Transfer Learning (reusing pre-trained models, e.g., fine-tuning BERT for sentiment analysis), expanding the scope for advanced applications.
 
-#### 🌱 Progression Pathway: The guide provides a 16-week progression pathway, divided into four phases, ensuring a structured learning journey:
+#### 🌱 Progression Pathway: 
+The guide provides a 16-week progression pathway, divided into four phases, ensuring a structured learning journey:
 
 #### Phase 1: Core Concepts (Weeks 1-4)
 - Study ML fundamentals (linear algebra, calculus, probability).
